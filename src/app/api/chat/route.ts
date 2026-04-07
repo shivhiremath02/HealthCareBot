@@ -1,6 +1,8 @@
 import { groq } from '@ai-sdk/groq';
 import { streamText } from 'ai';
 
+export const runtime = 'edge';
+export const dynamic = 'force-dynamic';
 export const maxDuration = 30;
 
 const systemPrompt = `You are the AI assistant for Dr. Shraddha S. Hiremath, an expert Obstetrician and Gynecologist based in Dharwad, Karnataka, India. 
